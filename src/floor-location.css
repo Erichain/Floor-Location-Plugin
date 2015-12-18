@@ -1,0 +1,84 @@
+/**
+ * style for default floors
+ * you can absolutely change it to the style you like
+ *
+ * created by Erichain on 2015-12-18
+ */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+
+.floor-container {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    overflow: hidden;
+}
+
+.floor-container .floor-menu {
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+}
+
+.floor-container .floor-menu ul > li,
+.floor-container .floor-menu ul > li > a {
+    display: block;
+    width: 80px;
+    height: 40px;
+}
+
+.floor-container .floor-menu ul > li > a {
+    color: #FFFFFF;
+    background: #7c5df2;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+.floor-container .floor-menu ul > li > a:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #6e5cdc;
+}
+
+.floor-container .floor-content .floor-item {
+    width: 100%;
+    padding: 350px 0;
+    margin-bottom: 20px;
+    background: #cccccc;
+}
+
+.floor-container .floor-content .f0 {
+    background-color: #7c5df2;
+}
+
+.floor-container .floor-content .f1 {
+    background-color: #5fa9f2;
+}
+
+.floor-container .floor-content .f2 {
+    background-color: #b83af2;
+}
+
+.floor-container .floor-content .f3 {
+    background-color: #28f2a7;
+}
+
+.floor-container .floor-content .f4 {
+    background-color: #f2502b;
+}
+
+/* style for actived floor button */
+.floor-container .floor-menu ul > li > a.active {
+    background-color: #493f92;
+}
